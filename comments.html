@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#f97316">
+        <title>MZX Portfolio | Comments</title>
+        <link rel="manifest" href="manifest.json">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/JPEG" href="logo1.jpeg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="page-shell">
+            <header class="topbar">
+                <div class="brand">MZX</div>
+                <nav class="nav-links">
+                    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                    <a href="projects.html"><i class="fa-solid fa-folder"></i> Projects</a>
+                    <a><i class="fa-solid fa-message"></i> Comment</a>
+                    <a href="about.html"><i class="fa-solid fa-circle-info"></i> About</a>
+                </nav>
+                <a class="btn btn-outline" href="https://mzx1.gumroad.com/?_gl=1*n8ev6h*_ga*MjQ0NzUyOTU4LjE3ODQ1NjQxMjY.*_ga_6LJN6D94N6*czE3ODQ4MzM5NjkkbzkkZzEkdDE3ODQ4MzQyODkkajI3JGwwJGgw">My Store</a>
+            </header>
+
+            <main class="comments-shell">
+                <h1 class="comments-title">To Message </h1>
+
+                  <form action="https://formspree.io/f/mlgqozgj" method="POST">
+                    <div id="feedback">
+                   <label>
+                    <input id="email" type="email" name="email" placeholder="exsample@gmail.com">
+                   </label>
+                   <label>
+                    <input id="name" type="text" name="name" placeholder="Name" required>
+                   </label>
+                   <label>
+                    <input id="message" name="message" placeholder="Your Message">
+                  </label>
+                  <button type="submit">Send</button>
+                 </form>
+                  <p class="comments-subtitle">This message the auther will see it in email.</p>
+                  </div>
+
+                <section id="comment-list" class="comments-list"></section>
+            </main>
+        </div>
+    </body>
+</html>

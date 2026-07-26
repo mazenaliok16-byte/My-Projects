@@ -1,0 +1,19 @@
+{
+  "name": "MZX Portfolio",
+  "short_name": "MZX",
+  "description": "A modern portfolio and comments app for MZX.",
+  "start_url": "./home.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#f97316",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "logo1.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
