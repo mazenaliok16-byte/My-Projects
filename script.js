@@ -50,7 +50,7 @@ function hideIntroOverlay() {
 
 function redirectToHome() {
   if (window.location.pathname.toLowerCase().endsWith('index.html')) {
-    window.location.href = 'intro.html';
+    window.location.href = 'home.html';
   }
 }
 
